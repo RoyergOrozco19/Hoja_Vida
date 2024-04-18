@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#1F7A8C;
+}
+
+
+
+.arriba{
+    width: 100%;
+    height: 300px;
+    background-color:#022C3A;
+    transform: skewY(5deg);
+    
+}
+.arriba .img{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    overflow: hidden;
+    transform: skewY(-5deg);
+
+}
+.arriba .img img{
+    width: 180px ;
+    height: 180px;
+    transform: skewY(5deg);
+}
+.arriba .con{
+    width: 50%;
+    height:50%;
+    position: absolute;
+    left: 25%;
+    
+}
+
+.arriba .con .p{
+    color:#FFFFFF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transform: skewY(-5deg);
+    margin-bottom: 3;
+}
+.arriba .con .pp{
+    color:#FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    transform: skewY(-5deg);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.ip{
+    width: 90%;
+    height: 200px;
+    background-color: #BFDBF7;
+    margin: 5% auto;
+    border-radius: 8px;
+
+}
+.ip .sectionTitle{
+    color:#111111;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-bottom: 2px #022C3A solid;
+
+}
+.ip .infoTitle{
+    color:#111111;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: px;
+}
+.ip .ii{
+    color:#022B3A;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
